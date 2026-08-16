@@ -1,0 +1,72 @@
+# ============================================================
+# Python bytecode & caches
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ============================================================
+# Virtual environments — never commit these
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Apache Airflow generated files
+# ============================================================
+# Airflow database (SQLite default)
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# Airflow logs directory (can be very large)
+logs/
+airflow/logs/
+
+# ============================================================
+# Common IDE / editor artifacts
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Temporary / build files
+# ============================================================
+*.log
+*.tmp
+*.bak
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ============================================================
+# Data science tooling
+# ============================================================
+# mlflow runs — NOT used in this project but excluded for safety
+mlruns/
+.mlflow/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ============================================================
+# DO NOT ignore these assignment deliverables
+# ============================================================
+# dags/                   <- tracked
+# data/input.csv          <- tracked
+# output/validation_report.txt   <- tracked
+# output/summary_report.txt      <- tracked
+# output/processed_data.csv      <- tracked
+# output/extracted_data.csv      <- tracked (optional)
+# README.md               <- tracked
+# requirements.txt        <- tracked

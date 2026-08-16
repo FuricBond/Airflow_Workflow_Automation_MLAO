@@ -1,0 +1,31 @@
+============================================================
+PIPELINE SUMMARY REPORT
+Generated at : 2026-08-16 19:01:11
+============================================================
+
+--- REQUIRED METRICS ---
+1. Records Processed          : 14
+2. Missing Values Identified  : 2
+3. Processing Status          : COMPLETED SUCCESSFULLY
+
+--- ADDITIONAL DETAILS ---
+Records Extracted             : 15
+Records Removed (cleaning)    : 1
+Columns in Final Dataset      : 6
+Duplicate Rows Found          : 0
+Validation Status             : WARNINGS
+
+--- COLUMN SUMMARY (Processed Data) ---
+  id                        dtype=int64
+  name                      dtype=str
+  age                       dtype=int64
+  department                dtype=str
+  salary                    dtype=int64
+  performance_score         dtype=float64
+
+--- PIPELINE TASK CHAIN ---
+  extract >> validate >> process >> report >> notify
+
+============================================================
+End of Report
+============================================================

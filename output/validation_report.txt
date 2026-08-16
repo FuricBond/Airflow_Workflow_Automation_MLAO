@@ -1,0 +1,22 @@
+============================================================
+DATA VALIDATION REPORT
+Generated at : 2026-08-16 19:01:09
+============================================================
+
+Total Records   : 15
+Total Columns   : 6
+Missing Values  : 2
+Duplicate Rows  : 0
+
+Missing Values per Column:
+  id                        : 0
+  name                      : 1
+  age                       : 0
+  department                : 0
+  salary                    : 0
+  performance_score         : 1
+
+Invalid Values Detected:
+  performance_score         : 1 row(s) with negative values
+
+Validation Status : WARNINGS
